@@ -8,10 +8,12 @@ import LargeAuthorListItems from "./components/author/LargeListItems";
 
 import { SmallBookListItem } from "./components/books/SmallListItems";
 import { LargeBookListItem } from "./components/books/LargeListItems";
+import Modal from "./components/Modal/Modal";
 
 function App() {
   return (
     <>
+      <Modal></Modal>
       <RegularList
         items={author}
         sourceName={"author"}
