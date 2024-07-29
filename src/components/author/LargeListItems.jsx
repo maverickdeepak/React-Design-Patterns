@@ -9,7 +9,7 @@ const LargeAuthorListItems = ({ author }) => {
       <h2>Books</h2>
       <ul>
         {books.map((book) => (
-          <li key={book.id}>{book}</li>
+          <li key={book}>{book}</li>
         ))}
       </ul>
     </div>
